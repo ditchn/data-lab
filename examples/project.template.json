@@ -1,0 +1,39 @@
+{
+  "slug": "replace-with-project-slug",
+  "title": "Replace with the project title",
+  "kicker": "Research area",
+  "summary": "One or two sentences that help a visitor decide whether to explore this project.",
+  "question": "The question your analysis set out to answer.",
+  "findings": "Describe the main finding in plain language.\n\nUse a blank line to separate paragraphs.",
+  "methods": "Describe the analysis method, tools, and important transformations.",
+  "limitations": "Describe uncertainty, exclusions, and cautions when interpreting results.",
+  "updated": "2026-10-24",
+  "topics": ["Example topic", "Data analysis"],
+  "codeUrl": "https://github.com/ditchn/replace-with-project-repo",
+  "reports": [
+    {
+      "title": "Interactive analysis",
+      "kind": "Interactive report",
+      "description": "Explore the full report, charts, and tables.",
+      "href": "/reports/replace-with-project-slug/index.html"
+    }
+  ],
+  "downloads": [
+    {
+      "title": "Approved data extract",
+      "description": "The public subset used for these charts.",
+      "href": "/reports/replace-with-project-slug/approved-data.csv"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Name of original data source",
+      "publisher": "Publisher or organization",
+      "url": "https://example.org/data",
+      "coverage": "Years and geography covered",
+      "accessed": "2026-10-24",
+      "license": "Reuse terms or license",
+      "notes": "Context, transformations, or caveats. These notes are public."
+    }
+  ]
+}

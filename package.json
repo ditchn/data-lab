@@ -1,0 +1,15 @@
+{
+  "name": "ditchn-data-lab-pages",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node --check scripts/build.mjs && node --check scripts/serve.mjs && node --check public/site.js",
+    "dev": "npm run build && node scripts/serve.mjs",
+    "smoke": "node scripts/smoke.mjs"
+  }
+}
