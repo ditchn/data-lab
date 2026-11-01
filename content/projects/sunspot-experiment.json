@@ -1,0 +1,31 @@
+{
+  "slug": "sunspot-experiment",
+  "title": "Forecasting Sunspot Activity",
+  "kicker": "Time-series analysis",
+  "summary": "A test of whether an autoregressive model can forecast held-out annual sunspot activity better than a mean baseline.",
+  "question": "How well does an 11-lag autoregressive model forecast the final 20 years of the sunspot dataset?",
+  "findings": "Replace this text with the model and baseline mean absolute errors printed by experiment.py, and explain which performed better.",
+  "methods": "The script loads the sunspots dataset from statsmodels, fits an autoregressive model with 11 lags, and evaluates it on the final 20 years against a baseline that predicts the training-data mean.",
+  "limitations": "This evaluates one historical holdout period. It does not establish how well the model predicts future activity; describe any other important limitations of the data or approach.",
+  "updated": "2026-10-31",
+  "topics": ["Sunspots", "Time series", "Forecasting"],
+  "reports": [
+    {
+      "title": "Forecast chart and methods",
+      "kind": "Analysis report",
+      "description": "View the forecast, baseline, and evaluation approach.",
+      "href": "/reports/sunspot-experiment/index.html"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sunspots dataset",
+      "publisher": "statsmodels",
+      "url": "https://www.statsmodels.org/stable/datasets/generated/sunspots.html",
+      "coverage": "Historical annual sunspot observations included in the statsmodels dataset",
+      "accessed": "2026-10-31",
+      "license": "Verify the dataset's reuse terms before publishing.",
+      "notes": "The experiment loads this dataset through the statsmodels API."
+    }
+  ]
+}

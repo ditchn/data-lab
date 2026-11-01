@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sunspot Forecast Experiment</title>
+</head>
+<body>
+  <main>
+    <h1>Can historical sunspot activity predict the next 20 years?</h1>
+    <p>
+      This experiment compares an autoregressive forecast with a mean baseline
+      on the final 20 years of the dataset.
+    </p>
+    <figure>
+      <img
+        src="forecast.png"
+        alt="Historical sunspot activity, a 20-year model forecast, and a mean baseline"
+        style="max-width: 100%; height: auto;"
+      >
+      <figcaption>Actual activity, model forecast, and baseline.</figcaption>
+    </figure>
+    <h2>Methods and limitations</h2>
+    <p>
+      The model uses the previous 11 annual observations. The final 20 years
+      are held out for evaluation. This is a historical test period, not a
+      prediction of current or future sunspot activity.
+    </p>
+  </main>
+</body>
+</html>
